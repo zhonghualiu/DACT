@@ -14,7 +14,13 @@ devtools::install_github("https://github.com/zhonghualiu/DACT")
 ## p_a and p_b are the p-value vectors for the exposure-mediator and mediator-outcome associations 
 ## in genome-wide epigenetic studies.
 DACT(p_a,p_b,correction="JC")
-
+```
+# Example 
+```
+library(DACT)
+p_a = runif(1e4) ## p-value vector for the exposure-mediator associations
+p_b = runif(1e4) ## p-value vector for the mediator-outcome associations
+res = DACT(p_a=p_a,p_b=p_b,correction="JC")
 ```
 
 # License 
