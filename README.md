@@ -18,9 +18,9 @@ DACT(p_a,p_b,correction="JC")
 # Example 
 ```
 library(DACT)
-p_a = runif(1e4) ## p-value vector for the exposure-mediator associations
-p_b = runif(1e4) ## p-value vector for the mediator-outcome associations
-res = DACT(p_a=p_a,p_b=p_b,correction="JC")
+p_a = runif(1e4) ## a p-value vector for the exposure-mediator associations
+p_b = runif(1e4) ## a p-value vector for the mediator-outcome associations
+res = DACT(p_a=p_a,p_b=p_b,correction="JC") ## a p-value vector for mediation effect testing
 ```
 
 # License 
