@@ -20,7 +20,7 @@ the p-value vector of mediation effect testing
 DACT is a function used for testing for mediation effect in genome-wide epigenetic studies.
 }
 \references{
-Liu, Z. , Shen, J., Barfield, R., Schwartz, J., Baccarelli, A., Lin, X., 2020. Large-scale hypothesis testing for causal mediation effects in Genome-wide epigenetic studies. (under review)
+Liu, Z. , Shen, J., Barfield, R., Schwartz, J., Baccarelli, A., Lin, X., 2020. Large-scale hypothesis testing for causal mediation effects with applications in genome-wide epigenetic studies. (under review)
 }
 \author{
 Zhonghua Liu < zhhliu@hku.hk >
