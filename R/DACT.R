@@ -10,8 +10,8 @@
 DACT = function(p_a,p_b,correction=NULL){
   Z_a = stats::qnorm(p_a,lower.tail = F)
   Z_b = stats::qnorm(p_b,lower.tail = F)
-  pi0a = nonnullPropEst(Z_a,0,1)
-  pi0b = nonnullPropEst(Z_b,0,1)
+  pi0a = 1 - nonnullPropEst(Z_a,0,1)
+  pi0b = 1 - nonnullPropEst(Z_b,0,1)
   #pi0a = locfdr::locfdr(Z_a,nulltype = 0)$fp0[5,3]
   #pi0b = locfdr::locfdr(Z_b,nulltype = 0)$fp0[5,3]
   if(pi0a > 1){
