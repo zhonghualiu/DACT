@@ -4,7 +4,7 @@
 #' @param correction, the name of method for correction, either "Efron" or "JC". By default, it is set to NULL.
 #' @return the p-value vector of mediation effect testing
 #' @references Liu, Z. , Shen, J., Barfield, R., Schwartz, J., Baccarelli, A., Lin, X., 2020. Large-scale hypothesis testing for causal mediation effects in Genome-wide epigenetic studies. (under review)
-#' @author Zhonghua Liu < zhhliu@hku.hk >
+#' @author Zhonghua Liu < zl2509@cumc.columbia.edu >
 #' @usage DACT(p_a,p_b,correction)
 #' @export
 DACT = function(p_a,p_b,correction=NULL){
