@@ -26,3 +26,14 @@ res = DACT(p_a=p_a,p_b=p_b,correction="JC") ## a p-value vector for mediation ef
 # License 
 This software is licensed under MIT. 
 
+## References
+
+1. Liu, Z., Shen, J., Barfield, R., Schwartz, J., Baccarelli, A., & Lin, X. (2022).  
+   Large-Scale Hypothesis Testing for Causal Mediation Effects with Applications in Genome-Wide Epigenetic Studies.  
+   *Journal of the American Statistical Association*, 117(537), 67–81.  
+   https://doi.org/10.1080/01621459.2021.1914634
+
+2. Yang, H., Liu, Z., Wang, R., Lai, E., Schwartz, J., Baccarelli, A., Huang, Y., & Lin, X. (2024+).  
+   Causal Mediation Analysis for Integrating Exposure, Genomic and Phenotype Data.  
+   *Annual Review of Statistics and Its Application* (Invited Review Paper).  
+   https://doi.org/10.1146/annurev-statistics-040622-031653
